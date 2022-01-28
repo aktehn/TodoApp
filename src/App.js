@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
 import { nanoid } from "nanoid";
 
-import FilterButton from "./TodoApp/FilterButton";
-import Form from "./TodoApp/Form";
+import { FilterButton } from "./TodoApp/FilterButton";
+import { Form } from "./TodoApp/Form";
 import Todo from "./TodoApp/Todo";
 import "./App.css";
 
